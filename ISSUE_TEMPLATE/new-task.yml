@@ -1,11 +1,11 @@
 name: New Task
-description: Create a new issue or task.
-title: "[Task] "
+description: Create a new work task /issue.
+title: "[Issue] "
 labels: ["issue"]
 body:
   - type: markdown
     attributes:
-      value: "## 📝 New Work Task"
+      value: "## 📋 New WorkTask"
   
   - type: dropdown
     id: priority
@@ -24,7 +24,7 @@ body:
     id: what
     attributes:
       label: "🎯 What?"
-      placeholder: "Brief description of what this task is about"
+      placeholder: "Brief description of what this task will accomplish. What is the goal?"
     validations:
       required: true
 
@@ -40,7 +40,7 @@ body:
     id: done
     attributes:
       label: "✅ Definition of Done"
-      placeholder: "What exactly needs to happen for this to be considered complete?"
+      placeholder: "What exactly needs to be done to mark this issue as complete?(Add a task list if needed)"
     validations:
       required: true
 
