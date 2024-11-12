@@ -5,20 +5,29 @@ labels: ["issue"]
 body:
   - type: markdown
     attributes:
-      value: "## 📋 New WorkTask"
+      value: "## 📋 New Work Task"
   
   - type: dropdown
     id: priority
     attributes:
       label: "🚨 Priority Level"
       options:
-        - "🔴 P0 - Critical (Urgent, blocking issue affecting multiple teams)"
-        - "🟠 P1 - High (Very important, needs attention ASAP)"
-        - "🟡 P2 - Medium (High impact, should be done soon)"
-        - "🟢 P3 - Normal (Should be done, but not urgent)"
-        - "⚪ P4 - Low (Nice to have)"
+        - "🔴 P0"
+        - "🟠 P1"
+        - "🟡 P2"
+        - "🟢 P3"
+        - "⚪ P4"
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        - 🔴 P0 - Critical: Urgent, blocking issue affecting multiple teams
+        - 🟠 P1 - High: Very important, needs attention ASAP
+        - 🟡 P2 - Medium: High impact, should be done soon
+        - 🟢 P3 - Normal: Should be done, but not urgent
+        - ⚪ P4 - Low: Nice to have
 
   - type: textarea
     id: what
