@@ -12,22 +12,22 @@ body:
     attributes:
       label: "🚨 Priority Level"
       options:
-        - "🔴 P0"
-        - "🟠 P1"
-        - "🟡 P2"
-        - "🟢 P3"
-        - "⚪ P4"
+        - "🔴 P0 : Critical"
+        - "🟠 P1 : High"
+        - "🟡 P2 : Medium"
+        - "🟢 P3 : Normal"
+        - "⚪ P4 : Low"
     validations:
       required: true
 
   - type: markdown
     attributes:
       value: |
-        - 🔴 P0 - Critical: Urgent, blocking issue affecting multiple teams
-        - 🟠 P1 - High: Very important, needs attention ASAP
-        - 🟡 P2 - Medium: High impact, should be done soon
-        - 🟢 P3 - Normal: Should be done, but not urgent
-        - ⚪ P4 - Low: Nice to have
+        🔴 P0 - Urgent, blocking issue affecting multiple teams
+        🟠 P1 - Very important, needs attention ASAP
+        🟡 P2 - High impact, should be done soon
+        🟢 P3 - Should be done, but not urgent
+        ⚪ P4 - Nice to have
 
   - type: textarea
     id: what
