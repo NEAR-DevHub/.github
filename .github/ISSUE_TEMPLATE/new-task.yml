@@ -1,6 +1,6 @@
 name: New Task
 description: Create a new work task /issue.
-title: "[Issue] "
+title: "[Task] "
 labels: ["issue", "NEW❗️"]
 body:
   - type: markdown
