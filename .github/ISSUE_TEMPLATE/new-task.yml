@@ -54,8 +54,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        🔴 P0 - Urgent, blocking issue affecting multiple teams
-        🟠 P1 - Very important, needs attention ASAP
-        🟡 P2 - High impact, should be done soon
-        🟢 P3 - Should be done, but not urgent
-        ⚪ P4 - Nice to have
+        | Priority | Name | Description |
+        |----------|------|-------------|
+        | 🔴 P0 | CRITICAL | Urgent, blocking issue affecting multiple teams |
+        | 🟠 P1 | HIGH | Very important, needs attention ASAP |
+        | 🟡 P2 | MEDIUM | High impact, should be done soon |
+        | 🟢 P3 | NORMAL | Should be done, but not urgent |
+        | ⚪ P4 | LOW | Nice to have |
