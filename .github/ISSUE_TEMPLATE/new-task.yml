@@ -1,7 +1,7 @@
 name: New Task
 description: Create a new work task /issue.
 title: "[Task] "
-labels: ["issue", "NEW❗️"]
+labels: ["issue"]
 body:
   - type: markdown
     attributes:
@@ -10,16 +10,8 @@ body:
   - type: textarea
     id: what
     attributes:
-      label: "What?"
-      placeholder: "Brief description of what this task will accomplish. What is the goal?"
-    validations:
-      required: true
-
-  - type: textarea
-    id: why
-    attributes:
-      label: "Why?"
-      placeholder: "Why are we doing this? What's the value?"
+      label: "What & Why?"
+      placeholder: "Brief description of what this task will accomplish. What is the goal and why should this be done?"
     validations:
       required: true
 
