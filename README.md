@@ -1,6 +1,6 @@
 # NEAR DevHub
 
-![DevHub Banner](../assets/devhub-banner.png)
+![DevHub Banner](https://github.com/NEAR-DevHub/.github/blob/main/assets/devhub-banner.png?raw=true)
 
 > _Empowering developers and ecosystem partners in building successful applications on NEAR._
 
@@ -8,11 +8,11 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 
 ---
 
-### High-Level Roadmap
+<!-- ### High-Level Roadmap
 
-[![Devhub High-Level Roadmap and Progress](https://img.shields.io/badge/Devhub_Roadmap-228B22?logo=near&style=for-the-badge)](https://github.com/orgs/near/projects/151/)
+[![Devhub High-Level Roadmap and Progress](https://img.shields.io/badge/Devhub_Roadmap-228B22?logo=near&style=for-the-badge)](https://github.com/orgs/near/projects/151/) -->
 
-### Individual Workstreams
+## Workstreams
 
 | Project Board                                                                                                                                            |                                     Repo                                      |                                       Create Task                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
@@ -26,22 +26,6 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 ---
 
 ## Workstream Details
-
-### 🤝 Partner Support
-
-> Gathering feedback, providing support, and identifying solutions for top ecosystem partners.
-
-- Defining clear technical requirements based on feedback and identifying partners for solutions
-- Providing technical support, including custom solutions and project management, either directly or in collaboration with external API providers
-
-### 🏗️ Devhub Products
-
-> Developing and maintaining DevHub products
-
-- [NEAR's Developer Portal](https://dev.near.org)
-- [Infrastructure Committee](https://infrastructure-committee.near.page/)
-- [Events Committee](https://events-committee.near.page)
-- Multisig Treasury Management
 
 ### 🛠️ DevTools
 
@@ -67,6 +51,22 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 - Developer newsletter
 - Technical blog posts
 - Social media content creation & engagement
+
+### 🏗️ Devhub Products
+
+> Developing and maintaining DevHub products
+
+- [NEAR's Developer Portal](https://dev.near.org)
+- [Infrastructure Committee](https://infrastructure-committee.near.page/)
+- [Events Committee](https://events-committee.near.page)
+- Multisig Treasury Management
+
+### 🤝 Partner Support
+
+> Gathering feedback, providing support, and identifying solutions for top ecosystem partners.
+
+- Defining clear technical requirements based on feedback and identifying partners for solutions
+- Providing technical support, including custom solutions and project management, either directly or in collaboration with external API providers
 
 ### ⚙️ Operations
 
