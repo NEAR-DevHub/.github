@@ -1,5 +1,3 @@
-# NEAR DevHub
-
 ![DevHub Banner](https://github.com/NEAR-DevHub/.github/blob/main/assets/devhub-banner.png?raw=true)
 
 > _Empowering developers and ecosystem partners in building successful applications on NEAR._
@@ -14,7 +12,7 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 
 ## Workstreams
 
-| Project Board | Repo | Create Task | Lead |  |
+| Project Board | Repo | Create Task | Lead | 📸 |
 | ------------ | :---: | :---: | :---: | :---: |
 | [![Developer Tools](https://img.shields.io/badge/🛠️_Developer_Tools-0F52BA?style=for-the-badge)](https://github.com/orgs/near/projects/156) | [near/devtools](https://github.com/near/devtools) | [📝](https://github.com/near/devtools/issues/new?template=new-task.yml) | [@frol](https://github.com/frol) | [![frol](https://github.com/frol.png?size=33)](https://github.com/frol) |
 | [![Developer Relations](https://img.shields.io/badge/🧑‍💻_Developer_Relations-5D3FD3?style=for-the-badge)](https://github.com/orgs/near/projects/117) | [near/devrel](https://github.com/near/devrel) | [📝](https://github.com/near/devrel/issues/new?template=new-task.yml) | [@gagdiez](https://github.com/gagdiez) | [![gagdiez](https://github.com/gagdiez.png?size=33)](https://github.com/gagdiez) |
