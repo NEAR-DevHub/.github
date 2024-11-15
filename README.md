@@ -1,5 +1,7 @@
 # NEAR DevHub
 
+![DevHub Banner](../assets/devhub-banner.png)
+
 > _Empowering developers and ecosystem partners in building successful applications on NEAR._
 
 DevHub is a cross-functional team that supports the NEAR ecosystem by providing tools, resources, and support to developers and partners. This repository serves as a single source of truth for all workstreams and projects.
