@@ -71,8 +71,10 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 
 > Coordinating infrastructure initiatives across the ecosystem
 
-- [Trenton add some blurbs here]
-- 
+- Creating Requests For Proposals (RFPs) that detail needs across the ecosystem. Partners, companies, and organizations can submit proposals to fulfill these needs.
+- Review, refine, and vote on submitted proposals.
+- Budget and distribute an envelope of funds determined by the NEAR Foundation.
+- Manage funded project status and review project milestones for payments.
 
 ### ⚙️ Operations
 
