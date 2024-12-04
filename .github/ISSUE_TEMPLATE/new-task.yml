@@ -5,7 +5,7 @@ labels: ["issue"]
 body:
   - type: markdown
     attributes:
-      value: "## 📝 New Task"
+      value: "📝 New Task"
 
   - type: textarea
     id: background
