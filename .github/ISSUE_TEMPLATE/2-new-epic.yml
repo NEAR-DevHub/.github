@@ -11,8 +11,8 @@ body:
   - type: textarea
     id: overview
     attributes:
-      label: "Epic Overview"
-      placeholder: "What is this epic about? What problem does it solve?"
+      label: "Background"
+      placeholder: "Brief description of what this epic of work will accomplish. What is the goal and why should this be done?"
     validations:
       required: true
 
@@ -42,7 +42,7 @@ body:
       label: "Related Initiative"
       placeholder: "Which strategic initiative does this epic support?"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: related-tasks
