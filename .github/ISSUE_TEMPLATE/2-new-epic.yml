@@ -1,7 +1,7 @@
 # Epic Template
 name: "🔷 New Epic"
 description: Create a new epic representing a large body of work that can be broken down into multiple tasks.
-title: "🔷[Epic] "
+title: "🔷 [Epic] "
 labels: ["epic"]
 body:
   - type: markdown
