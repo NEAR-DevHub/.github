@@ -1,0 +1,56 @@
+# Initiative Template
+name: New Initiative
+description: Create a new strategic initiative that encompasses multiple epics.
+title: "⭐️ [Initiative] "
+body:
+  - type: markdown
+    attributes:
+      value: "🎯 New Strategic Initiative"
+
+  - type: textarea
+    id: vision
+    attributes:
+      label: "Vision Statement"
+      placeholder: "What is the overall vision for this initiative? What strategic goal does it serve?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: "Key Objectives"
+      placeholder: "What are the main objectives this initiative aims to achieve? What outcomes are we targeting?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-metrics
+    attributes:
+      label: "Success Metrics"
+      placeholder: "How will we measure the success of this initiative? What KPIs or metrics will we track?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: timeline
+    attributes:
+      label: "Timeline & Milestones"
+      placeholder: "What is the expected timeline for this initiative? What are the major milestones?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: "Stakeholders"
+      placeholder: "Who are the key stakeholders involved in this initiative?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      placeholder: "Any other relevant information, constraints, or dependencies?"
+
+---
