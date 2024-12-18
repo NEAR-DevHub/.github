@@ -6,11 +6,11 @@ DevHub is a cross-functional team that supports the NEAR ecosystem by providing 
 
 ---
 
-<!-- ### High-Level Roadmap
+### High-Level Roadmap
 
-[![Devhub High-Level Roadmap and Progress](https://img.shields.io/badge/Devhub_Roadmap-228B22?logo=near&style=for-the-badge)](https://github.com/orgs/near/projects/151/) -->
+[![Devhub High-Level Roadmap and Progress](https://img.shields.io/badge/Devhub_Roadmap-228B22?logo=near&style=for-the-badge)](https://github.com/orgs/NEAR-DevHub/projects/18)
 
-## Workstreams
+## Individual Workstreams
 
 | Project Board | Repo | Create Task | Lead | 📸 |
 | ------------ | :---: | :---: | :---: | :---: |
