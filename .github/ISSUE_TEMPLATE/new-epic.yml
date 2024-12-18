@@ -24,14 +24,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: "Dependencies"
-      placeholder: "Are there any dependencies on other epics or external factors?"
-    validations:
-      required: true
-
   - type: dropdown
     id: status
     attributes:
@@ -53,12 +45,12 @@ body:
       required: true
 
   - type: textarea
-    id: acceptance-criteria
+    id: related-tasks
     attributes:
-      label: "Epic-Level Acceptance Criteria"
-      placeholder: "What are the high-level conditions that must be met for this epic to be considered complete?"
+      label: "Related Tasks"
+      placeholder: "Link related tasks here"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: priority
