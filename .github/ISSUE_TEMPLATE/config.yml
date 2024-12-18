@@ -1,1 +1,7 @@
 blank_issues_enabled: false
+template_chooser:
+  display: true
+  order:
+    - "⭐️ New Initiative"
+    - "🔷 New Epic"
+    - "✅ New Task"
