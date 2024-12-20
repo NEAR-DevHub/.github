@@ -1,12 +1,8 @@
 # Initiative Template
 name: "⭐️ New Initiative"
-description: Create a new strategic initiative that encompasses multiple epics.
+description: Create a new strategic initiative that encompasses multiple epics that drive towards a common goal.
 title: "⭐️ [Initiative] "
 body:
-  - type: markdown
-    attributes:
-      value: "🎯 New Strategic Initiative"
-
   - type: textarea
     id: vision
     attributes:
