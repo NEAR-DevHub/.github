@@ -2,6 +2,7 @@
 name: "⭐️ New Initiative"
 description: Create a new strategic initiative that encompasses multiple epics that drive towards a common goal.
 title: "⭐️ [Initiative] "
+labels: ["initiative"]
 body:
   - type: textarea
     id: vision
