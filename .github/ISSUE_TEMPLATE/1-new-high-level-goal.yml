@@ -1,13 +1,13 @@
 # Initiative Template
-name: "⭐️ New Initiative"
-description: Create a new strategic initiative that encompasses multiple epics that drive towards a common goal.
-title: "⭐️ [Initiative] "
+name: "⭐️ New High-level Goal"
+description: Create a new high-level goal that will contain multiple epics.
+title: "⭐️ `[High-level Goal]` "
 body:
   - type: textarea
     id: vision
     attributes:
       label: "Vision Statement"
-      placeholder: "What is the overall vision for this initiative? What strategic goal does it serve?"
+      placeholder: "What is the overall vision for this high-level goal?"
     validations:
       required: true
 
@@ -15,7 +15,7 @@ body:
     id: objectives
     attributes:
       label: "Key Objectives"
-      placeholder: "What are the main objectives this initiative aims to achieve? What outcomes are we targeting?"
+      placeholder: "What are the main objectives this goal aims to achieve? What outcomes are we targeting?"
     validations:
       required: true
 
