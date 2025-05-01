@@ -1,17 +1,17 @@
 
 name: "New Defect"
 description: Create a new Defect.
-title: "[DEFECT] "
+title: "[BUG] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: ":bug: New Defect"
+      value: ":bug: New BUG"
 
   - type: textarea
     id: summary
     attributes:
-      label: "Defect Summary"
+      label: "Summary"
       placeholder: "Brief description of what happened. Be succint."
     validations:
       required: true
