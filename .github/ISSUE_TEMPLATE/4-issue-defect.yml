@@ -2,7 +2,7 @@
 name: "New Defect"
 description: Create a new Defect.
 title: "[DEFECT] "
-labels: ["defect"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
