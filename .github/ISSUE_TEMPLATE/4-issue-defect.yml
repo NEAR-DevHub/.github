@@ -1,5 +1,5 @@
 
-name: ":bug: New Defect"
+name: "New Defect"
 description: Create a new Defect.
 title: "[Task] "
 labels: ["issue"]
