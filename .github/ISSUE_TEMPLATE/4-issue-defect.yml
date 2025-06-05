@@ -1,0 +1,64 @@
+
+name: "New Defect"
+description: Create a new Defect.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: ":bug: New BUG"
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      placeholder: "Brief description of what happened. Be succint."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps To Reproduce"
+      placeholder: "Please include numbered steps taken to reproduce the issue. Include important activities that led to the error state."
+    validations:
+      required: true
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: "Setup - OS - Browser - Environment"
+      placeholder: "Please include details of your setup; os, browser, device, environment, deployment, etc."
+      value:
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Resources & Additional Notes"
+      placeholder: "Any relevant resources, extra context, links, or screenshots?"
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      options:
+        - "🔴 P0 : Critical"
+        - "🟠 P1 : High"
+        - "🟡 P2 : Medium"
+        - "🟢 P3 : Normal"
+        - "⚪ P4 : Low"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        | Priority | Name | Description |
+        |----------|------|-------------|
+        | 🔴 P0 | CRITICAL | Urgent, blocking issue affecting multiple teams |
+        | 🟠 P1 | HIGH | Very important, needs attention ASAP |
+        | 🟡 P2 | MEDIUM | High impact, should be done soon |
+        | 🟢 P3 | NORMAL | Should be done, but not urgent |
+        | ⚪ P4 | LOW | Nice to have |
